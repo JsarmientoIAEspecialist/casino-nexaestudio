@@ -23,7 +23,9 @@ export function MainLayout() {
           </div>
           <div className="flex flex-col">
              <h1 className="font-bold text-lg leading-tight">Casino <span className="text-blue-400">Pro</span></h1>
-             <span className="text-[10px] text-slate-400 tracking-widest uppercase mt-1">by NexaEstudio</span>
+             <a href="https://nexastudio.info/" target="_blank" rel="noopener noreferrer" className="text-[10px] text-slate-400 tracking-widest uppercase mt-1 hover:text-blue-400 transition-colors">
+               by NexaStudio
+             </a>
           </div>
         </div>
         
