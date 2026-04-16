@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1e40af;
+  --color-secondary: #0ea5e9;
+  --font-sans: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: #f8fafc;
+  font-family: var(--font-sans);
+  color: #0f172a;
+}
+
+@layer utilities {
+  .frozen-column {
+    position: sticky;
+    left: 0;
+    z-index: 10;
+    box-shadow: 2px 0 5px -2px rgba(0,0,0,0.1);
+  }
+}
+
+@media print {
+  @page {
+    size: landscape;
+    margin: 5mm;
+  }
+  body, html {
+    background-color: white !important;
+  }
+  .frozen-column {
+    position: static !important;
+    box-shadow: none !important;
+  }
+  table {
+    page-break-inside: auto;
+    font-size: 8px !important;
+    width: 100% !important;
+  }
+  tr {
+    page-break-inside: avoid;
+    page-break-after: auto;
+  }
+}

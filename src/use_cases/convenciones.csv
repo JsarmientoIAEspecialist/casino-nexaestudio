@@ -1,0 +1,27 @@
+CONVENCIONES ,,
+,,
+CASINO,TURNO,CONVENCION 
+DIAMONDS,Turno completo,D
+,Turno mañana,MD
+,Turno tarde,TD
+,Día festivo ,DFD
+,Mañana festiva,MFD
+,Tarde festiva,TFD
+PALACE,Turno completo,P
+,Turno mañana,MP
+,Turno tarde,TP
+,Día festivo ,DFP
+,Mañana festiva,MFP
+,Tarde festiva,TFP
+CAFÉ Y FORTUNA,Turno completo,CF
+,Turno mañana,MC
+,Turno tarde,TC
+,Día festivo ,DFC
+,Mañana festiva,MFC
+,Tarde festiva,TFC
+BARCELONA,Turno completo,B
+,Turno mañana,MB
+,Turno tarde,TB
+,Día festivo ,DFP
+,Mañana festiva,MFB
+,Tarde festiva,TFB
